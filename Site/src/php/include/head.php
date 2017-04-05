@@ -16,21 +16,39 @@ session_start();
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+        <!--Laison aux fichiers de styles-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../../ressources/css/materialize.min.css"  media="screen,projection"/>
         <link rel="stylesheet" type="text/css" href="../../ressources/css/common.css">
         <link rel="stylesheet" type="text/css" href="../../ressources/css/login.css">
     </head>
 
+    <!--Affichage du site-->
     <body>
-        <nav class="blue">
-            <div class="nav-wrapper container blue">
-                <a href="#" class="brand-logo center">Logo</a>
-                <ul class="left hide-on-med-and-down">
-                    <li class="active"><a href="index.php">Accueil</a></li>
-                    <li><a href="index.php">Divers</a></li>
-                    <li><a href="index.php">Divers</a></li>
+        <!--Partie suppérieure du site-->
+        <header>
+            <!--Barre de naviguation-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Connexion</a>
+                    </li>
+                    <li>
+                        <a href="#">Elèves & Formateurs</a>
+                    </li>
+                    <li>
+                        <a href="#">Remarques</a>
+                    </li>
+                    <li>
+                        <a href="#">Inscription</a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </header>
+

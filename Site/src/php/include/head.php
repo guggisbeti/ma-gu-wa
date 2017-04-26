@@ -5,7 +5,7 @@
  * Date: 29.03.2017
  * Description: Partie HEAD des pages HTML
  */
-session_start();
+
 ?>
 <!--PAGE HTML-->
 <!DOCTYPE html>
@@ -30,25 +30,20 @@ session_start();
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Accueil</a>
+                        <a href="index.php">Accueil</a>
                     </li>
                     <li>
-                        <a href="#">Connexion</a>
+                        <a href="registerTeacher.php">S'inscrire en tant qu'enseignant</a>
                     </li>
                     <li>
-                        <a href="#">Elèves & Formateurs</a>
+                        <a href="viewStudentTeacher.php">Elèves & Formateurs</a>
                     </li>
                     <li>
-                        <a href="#">Remarques</a>
+                        <a href="commentCours.php">Remarques</a>
                     </li>
                     <li>
-                        <a href="#">Inscription</a>
+                        <a href="registerToCours.php">S'inscrire à un cours</a>
                     </li>
-                    <li>
-                        <a href="#"></a>
-                    </li>
-
                 </ul>
             </nav>
         </header>
-

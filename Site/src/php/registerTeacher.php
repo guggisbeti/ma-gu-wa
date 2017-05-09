@@ -15,13 +15,13 @@ include "include/head.php"
             <h2>INSCRIPTION</h2>
 
             <div class="left">
-                <span class="titleForm">Nom </span><br>
+                <span class="titleForm">Nom</span><br>
                 <input type="text" class="champText champs" name="name" placeholder="..."><br>
             </div>
 
             <div class="right">
-                <span class="titleForm">Prénom </span><br>
-                <input class="champs" type="text" name="lastName" placeholder="..."><br>
+                <span class="titleForm">Prénom</span><br>
+                <input class="champs" type="text" name="lastname" placeholder="..."><br>
             </div>
 
             <div class="left">
@@ -45,8 +45,13 @@ include "include/head.php"
             </div>
 
             <div class="left">
+                <span class="titleForm">Profession actuelle</span><br>
+                <input class="champs" id="job" type="text" name="job" placeholder="..."><br>
+            </div>
+
+            <div class="right">
                 <span class="titleForm">N°AVS</span><br>
-                <input class="champs" id="avs" type="text" name="style" placeholder="..."><br>
+                <input class="champs" id="avs" type="text" name="avs" placeholder="..."><br>
             </div>
 
             <button id="submit" type="submit">Ajouter</button>

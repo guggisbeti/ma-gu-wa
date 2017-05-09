@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url("../../ressources/images/registerTeacher.jpg");
+    background-image: url("../../ressources/images/registerStudent.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,9 +59,9 @@ button:hover{
     margin-left: 15vmin;
 }
 
-.champs{
+.champs, select, textarea{
     padding: 1vmin;
-    width: 32vmin;
+    width: 30vmin;
     height: 4vmin;
     border: none;
     border-radius: 4px;
@@ -89,11 +89,11 @@ button:hover{
 }
 
 .numbre{
-    width: 8vmin;
+    width: 10vmin;
 }
 
 #street{
-    width: 56vmin;
+    width: 50vmin;
 }
 
 #city{
@@ -101,5 +101,5 @@ button:hover{
 }
 
 #avs{
-    width: 32vmin;
+    width: 68vmin;
 }
